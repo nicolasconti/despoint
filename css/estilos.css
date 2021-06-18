@@ -1,0 +1,737 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-color: #95E2F5;
+}
+
+/* HEADER */
+
+.botoniniciosesion{
+    position: absolute;
+    transform: scale(0.4);
+    top: 90px;
+    right: 15px;
+}
+
+.botoniniciosesion:hover {
+    transform: scale(0.42);
+}
+
+
+.buscador{
+    position: absolute;
+    transform: scale(0.70);
+    top: 140px;
+    left: 15px;
+    
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 200px;
+    height: 200px;
+    background-image: url('../img/fondoheader2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    position: relative;
+    }
+
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 7vw;
+    
+    text-shadow: 1px 1px 5px #000000; 
+   }
+
+header h1 a{
+    text-decoration: none;
+    color: #F58925;
+}
+/* HEADER */
+
+/* NAV */
+nav {
+    height: 44px;
+    background-color: #F58925;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+       }
+
+.navegacion {
+    position: sticky;
+    top: 0px;
+}
+
+nav ul li {
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    letter-spacing: 3px;
+   }
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #1C4259;
+    height: 24px;
+}
+/* NAV */
+
+/* MAIN */
+main {
+    margin: 20px auto;
+    width: 80%;
+    height: 100%;
+}
+
+.bannerprincipal {
+    margin: 10px;
+    border: 1px solid lightgray;
+    width: 1200px;
+    height: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.limpiar2{
+    clear: both;
+}
+
+/* TEXTO */
+.bienvenido{
+    padding: 20px;
+}
+
+.h2{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #F58925;
+    text-shadow: 1px 1px 5px #000000;
+    letter-spacing: 5px;
+}
+
+.comofunciona{
+    padding: 40px;
+}
+
+.h3{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: #F58925;
+    text-shadow: 1px 1px 3px #000000;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.caja1{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    
+}
+
+.art1{
+    text-align: right;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.caja2{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    margin-top: 120px;
+    float: right;
+    border-left: 2px solid rgb(0, 0, 0);
+   
+}
+
+.art2{
+    text-align: left;
+
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+
+.caja3{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+  
+}
+
+.art3{
+    text-align: right;
+   
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.caja4{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: right;
+    border-left: 2px solid rgb(0, 0, 0);
+    
+}
+
+.art4{
+    text-align: left;
+    
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.caja5{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    
+}
+
+.art5{
+    text-align: right;
+ 
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.caja6{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: right;
+    border-left: 2px solid rgb(0, 0, 0);
+   
+}
+.art6{
+    text-align: left;
+    
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.caja7{
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    margin: 30px;
+    float: left;
+    border-right: 2px solid rgb(0, 0, 0);
+    
+}
+.art7{
+    text-align: right;
+  
+    font-family: 'Raleway', sans-serif;
+    color: #f09c4e;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+/* TEXTO */
+
+ /* BANNER separador */
+
+.bannerseparador{
+    width: 100%;
+    height: 25px;
+      
+}
+
+.banneradaptado{
+    width: 100%;
+}
+ /* BANNER separador */
+
+
+/* BANNERS DESCUENTOS Y PRODUCTOS */
+.descuentoizquierda {
+     float: left;
+     margin: 40px;
+     border: 1px solid lightgray;
+     width: 400px;
+     height: 200px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0 , 0.5);
+     text-align: center;
+     margin-top: 100px;
+ }
+ 
+ .descuentoizquierda:hover{
+     transform: scale(1.05);
+     cursor: pointer;
+ }
+ 
+ .descuentoderecha {
+     float: right;
+     margin: 40px;
+     border: 1px solid lightgray;
+     width: 400px;
+     height: 200px;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0 , 0.5);
+     text-align: center;
+     margin-top: 100px;
+ }
+ 
+ .descuentoderecha:hover{
+     transform: scale(1.05);
+     cursor: pointer;
+ }
+ 
+ 
+ .bannerdescuento {
+     margin: 20px;
+     border: 1px solid rgb(139, 139, 139);
+     width: 1200px;
+     height: 300px;
+     }
+ 
+ .bannerproducto{
+     border: 1px solid rgb(139, 139, 139);
+     width: 1200px;
+     height: 300px;
+     margin: 20px;
+    }
+ /* BANNERS DESCUENTOS Y PRODUCTOS */
+
+.limpiar2{
+    clear: both;
+}
+
+.bannerseparador2{
+    width: 100%;
+    height: 25px;
+    margin-top: 40px;
+   
+    display: block;
+      
+}
+
+.banneradaptado2{
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+}
+
+.limpiar3{
+    clear: both;
+}
+
+/* BOTONES ECOMMERCE */
+
+.ecommerce {
+    display: inline-block;
+    margin: 90px;
+    border: 3px solid lightgray;
+    width: 215px;
+    height: 275px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 , 0.5);
+   }
+
+
+.limpiar3{
+    clear: both;
+}
+
+/* BOTONES ECOMMERCE */
+
+/* DESCUENTOS - VIAJES */
+
+.escapadas{
+
+    font-family: 'Luckiest Guy', cursive;
+    text-align: left;
+    color: #F58925;
+    text-shadow: 1px 1px 3px #000000;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+
+.escapada1 {
+    display: inline-block;
+    margin: 40px;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 490px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 , 0.5);
+    border-radius: 10px;
+    border-color: rgb(255, 142, 36);
+    border-width: 3px;
+    background-color: rgba(34, 44, 97, 0.4);
+   }
+   
+.textoescapada{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: 10%;
+    font-size: 15px;
+    line-height: 22px;
+    text-shadow: 1px 1px 5px #cacacf;
+}
+
+.botoncomprar {
+    align-items: center;
+    transform: scale(0.5);
+    }
+
+.botoncomprar:hover {
+   transform: scale(0.55);
+   }
+
+
+    
+
+
+/* DESCUENTOS - VIAJES */
+
+
+
+
+/* MAIN */
+
+
+/* whatsapp */
+.whatsapp{
+    position:fixed;
+    right: 25px;
+    bottom: 60px;
+    transform: scale(0.8);
+}
+
+.whatsapp:hover{
+    transform: scale(1.01);
+    
+    }
+/* whatsapp */
+
+
+/* FOOTER */
+.instagram {
+        position: absolute;
+        right: 760px;
+        bottom: 5px;
+    }
+
+.facebook {
+        position: absolute;
+        right: 720px;
+        bottom: 7px;
+    }
+
+.limpiar{
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    background-color: #1C4259;
+    height: 50px;
+    background-image: url('../img/fondofooter.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    position: relative;
+    
+   
+}
+footer p {
+    font-family: 'Luckiest Guy', cursive;
+    color: #f09c4e;
+    text-shadow: 1px 1px 5px #000000;;
+    letter-spacing: 5px;;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 50px;
+    font-size: 140%;
+}
+/* FOOTER */
+
+/* form */
+div.form{
+    width: 60%;
+    margin: left;
+    background: rgba(0, 0, 0, 0.4);
+    padding:  20px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+h2.form{
+    color: #F58925;;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px #282829;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+input.boton{
+    background: #F58925;
+    color: white;
+    padding: 20px;
+    text-shadow: 1px 1px 5px #282829;
+    
+}
+
+input.boton:hover{
+    cursor: pointer;
+    background-color: #faa251;
+}
+
+/* form */
+
+
+/* aside */
+
+aside {
+    width: 25%;
+    color: #ffab5c;
+    padding: 10px;
+    float: right;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    height: 130px;
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    list-style: none;
+    text-shadow: 1px 1px 5px #787879;
+    
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+
+}
+/* aside */
+
+/* RESPONSIVE */
+
+
+@media (max-width: 1200px) {
+    nav {
+        background-color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .h2 {
+       color: #0087A8;
+       transition: .5s ease-in-out;
+    }
+
+    .h3{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art1{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art2{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art3{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art4{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art5{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art6{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    .art7{
+        color: #0087A8;
+        transition: .5s ease-in-out;
+    }
+    body{
+        background-color: #eebd8f;
+        transition: .5s ease-in-out;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    nav {
+        background-color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .h2 {
+       color: #f09c4e;
+       transition: .5s ease-in-out;
+    }
+
+    .h3{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art1{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art2{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art3{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art4{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art5{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art6{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    .art7{
+        color: #f09c4e;
+        transition: .5s ease-in-out;
+    }
+    body{
+        background-color: #95E2F5;
+        transition: .5s ease-in-out;
+
+    }
+
+}
+/* RESPONSIVE */
+
+
+/* CODIGOS DE COLOR */
+
+.primario {
+    color: #0087A8
+}
+
+.info {
+    color: #2BA8D9;
+}
+.secundario {
+    color: #F58925
+}
+
+.fondo {
+    color: #95E2F5
+}
+.alerta {
+    color: #F25252;
+}
+/* CODIGOS DE COLOR */
+
+/* RESPONSIVE
+
+    Desktop: 1200px; ok
+    Laptop: 768px ok
+    Table: 576px;
+    Celular: 480px;
+
+*/
